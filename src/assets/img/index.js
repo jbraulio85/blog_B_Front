@@ -16,3 +16,4 @@ export { default as typscript } from "./typescript-4096.png";
 export { default as vue } from "./vue.png";
 export { default as git } from './Git-Logo.png'
 export { default as docker} from './Docker.png'
+export { default as pegro } from "./Pegro.png"

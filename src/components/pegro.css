@@ -1,0 +1,43 @@
+
+.spinner{
+    margin-top: 25%;
+    margin-left: 20%;
+    background: #f5dad8;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    aspect-ratio: 1;
+    animation: rotate 6s linear infinite;
+
+    .img-container {
+        display: block;
+        width: 100%;
+        transform: scaleY(-1);
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        animation: bounce .2s linear infinite alternate;
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(-5%)
+    }
+    to{
+        transform: translateY(10%);
+    }
+}
+

@@ -7,3 +7,4 @@ export { ArticleCard } from './ArticleCard'
 export { NotFound } from './NotFound'
 export { CommentsList } from './CommentsList'
 export { AddCommentForm} from './AddCommentForm'
+export { Pegro } from "./Pegro"

@@ -6,6 +6,7 @@ import {
   ArticleList,
   NotFound,
   Navbar,
+  Pegro,
 } from "../components";
 
 export const DashboardPage = () => {
@@ -18,7 +19,8 @@ export const DashboardPage = () => {
           <Route path="/about" element={<About />} />
           <Route path="/posts/:name" element={<Article />} />
           <Route path="/posts" element={<ArticleList />} />
-          <Route path="*" element={<NotFound/>}/>
+          <Route path="/pegro" element={<Pegro />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>

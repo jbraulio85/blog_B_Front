@@ -32,6 +32,11 @@ export const Navbar = () => {
             Acerca de nosotros
           </Link>
         </li>
+        <li className="inline-block py-4">
+          <Link to="/pegro" onClick={handleClick} className="pl-6 pr-8">
+            Pegro
+          </Link>
+        </li>
       </ul>
     </nav>
   );
