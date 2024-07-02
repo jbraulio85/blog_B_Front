@@ -18,6 +18,6 @@ export const usePostByName = (name) => {
 
   return {
     post,
-    isFetching: !post,
+    isFetching: post,
   };
 };
