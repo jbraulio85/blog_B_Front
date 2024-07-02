@@ -8,7 +8,7 @@ export const usePostByName = (name) => {
     const fetchPost = async () => {
       const response = await getPostByName(name);
       if (!response.error) {
-        setPost(response.data.postInfo);
+        setPost(response.data);
       } else {
         console.log(response.e);
       }
@@ -18,6 +18,6 @@ export const usePostByName = (name) => {
 
   return {
     post,
-    isFetching: post,
+    isFetching: !post,
   };
 };

@@ -18,7 +18,7 @@ export const AddCommentForm = ({ articleName, onCommentAdded }) => {
   };
 
   const handleSubmit = async (event) => {
-    event.target();
+    event.preventDefault();
     const response = await submitComment();
     if(!response.error){
       reset();

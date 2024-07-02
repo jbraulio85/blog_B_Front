@@ -12,8 +12,5 @@ export const ArticleList = () => {
         </div>
       </div>
     </div>
-    <div>
-      <h1>Lista de publicaciones</h1>
-    </div>
   );
 };

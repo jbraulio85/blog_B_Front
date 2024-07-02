@@ -18,7 +18,7 @@ export const DashboardPage = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/posts/:name" element={<Article />} />
-          <Route path="/posts" element={<ArticleList />} />
+          <Route path="/post" element={<ArticleList />} />
           <Route path="/pegro" element={<Pegro />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
